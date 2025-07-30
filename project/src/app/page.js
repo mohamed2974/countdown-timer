@@ -41,7 +41,7 @@ export default function Home() {
     }, [])
 
     return (
-        <main className="flex justify-between items-center flex-col h-screen">
+        <main className="flex justify-between items-center flex-col h-screen pb-10">
             <div className="flex flex-col items-center justify-center pt-20">
                 <h1 className="text-White font-bold text-xl lg:text-2xl py-10">Countdown to the New Year 🎉</h1>
                 <div className="grid grid-cols-4 lg:gap-4 gap-2">
@@ -50,13 +50,13 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-            <div className="pb-5">
+            <div>
                 <div className="flex flex-row gap-3 justify-center">
                     {socialLinks.map((link, index) => (
                         <link.Icon className="text-xl hover:text-Red hover:scale-125 transition-all" key={index} />
                     ))}
                 </div>
-                <div className="text-xs lg:text-Static mt-5">
+                <div className="text-xs lg:text-Static pt-5">
                     Challenge by <Link href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="hover:text-Red underline">Frontend Mentor</Link>. 
                     Coded by <Link href="#" target="_blank" className="hover:text-Red underline">Mohamed Yazan Emran</Link>.
                 </div>
