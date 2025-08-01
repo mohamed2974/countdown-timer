@@ -7,7 +7,7 @@ export default function Box({number, text}) {
                 <span className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 rounded-full bg-BlackBlue p-1 lg:p-1.5"/>
                 {number}
             </div>
-            <span className="absolute bottom-0 left-0 w-full h-1/3 rounded-md -translate-y-1/2 -z-[5] bg-BlackBlue"/> 
+            <span className="absolute bottom-0 left-0 w-full h-2/3 lg:h-1/3 rounded-md -translate-y-1/2 -z-[5] bg-BlackBlue"/> 
             <span className="inline-block w-full tracking-[0.2em] lg:tracking-[0.3em] text-xs lg:text-Static pt-5">{text}</span>
         </div>
     )
